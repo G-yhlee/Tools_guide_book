@@ -1,0 +1,53 @@
+[
+    {
+        "key": "ctrl+oem_5",
+        "command": "workbench.action.focusPreviousPart",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+f6",
+        "command": "-workbench.action.focusPreviousPart"
+    },
+    {
+        "key": "ctrl+oem_5",
+        "command": "workbench.action.focusNextPart",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "f6",
+        "command": "-workbench.action.focusNextPart"
+    },
+    {
+        "key": "ctrl+oem_5",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+shift+oem_5",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus || editorFocus"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+f6",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "ctrl+shift+oem_3",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+oem_5",
+        "command": "openInTerminal",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    }
+]
